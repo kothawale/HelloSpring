@@ -17,9 +17,9 @@ public static void main(String[] args) {
       (StudentJDBCTemplate)context.getBean("studentJDBCTemplate");
       
       System.out.println("------Records Creation--------" );
-      studentJDBCTemplate.create("Zara", 11);
-      studentJDBCTemplate.create("Nuha", 2);
-      studentJDBCTemplate.create("Ayan", 15);
+      studentJDBCTemplate.create("Lara", 11);
+      studentJDBCTemplate.create("puha", 25);
+      studentJDBCTemplate.create("pavan", 15);
 
       System.out.println("------Listing Multiple Records--------" );
       List<Student> students = studentJDBCTemplate.listStudents();
